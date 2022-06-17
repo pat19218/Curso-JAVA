@@ -18,13 +18,24 @@ public class App {
 
         int numero;
         float decimales;
+        double extendidos;
+        String cadena;
+        char letra;
+
         System.out.println("Dame un numero: ");
         
         //numero = entrada.nextInt();
-        decimales = entrada.nextFloat();
+        //decimales = entrada.nextFloat();
+        //extendidos = entrada.nextDouble();
+        //cadena = entrada.next(); // Guarda la cadena de entrada hasta que encuentra un espacio, el resto lo obvea
+        //cadena = entrada.nextLine();
+        letra = entrada.next().charAt(0); //charAT, me guardar el caracter que yo le indico, en este caso el primero
 
         //System.out.println("El numero es: " + numero);
-        System.out.println("El numero es: " + decimales);
+        //System.out.println("El numero es: " + decimales);
+        //System.out.println("El texto es: " + cadena);
+        System.out.println("El texto es: " + letra);
+        
 
 
 
