@@ -15,7 +15,7 @@ public class App {
         //-------------------------------------------------------------------------------------------------------------------------------
 
         /* Es un sencillo algoritmo de ordenamiento.Funciona revisando cada
-            elemento de la lista que vaaser ordenada con el siguiente,
+            elemento de la lista que va a ser ordenada con el siguiente,
             intercambiándolos de posición si están en el orden equivocado.Es
             necesario revisar varias veces toda la lista hasta que no se necesiten más
             intercambios,lo cual significa que la lista está ordenada.
